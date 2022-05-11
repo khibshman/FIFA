@@ -19,6 +19,7 @@ For our project, we are using the “FIFA 22 Players Dataset”. This data was o
 2.	Can we organize players into clusters based on these variables? For example, are there relationships between club, salary, and nationality that segment players into groups. This question could be answered with PCA or other clustering techniques.
 ## Data Concerns
 •	It is likely that there are additional groupings that are not being captured here. For example, player positions or number of goals scored may impact wages, but this is not included in our data.
+
 •	The “Club” field contains a small number of records with missing values. However, this is only about 1% and it is the only field with missing data.
 ## Data Source
 Data was sourced from the FIFA 22 Player dataset on Kaggle, which was in turn scrapped from sofifa.com. 
