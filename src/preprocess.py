@@ -29,4 +29,4 @@ df = df.rename(columns={"wage": "wage_thousands", "value": "value_millions"})
 df["dob"] = pd.to_datetime(df["dob"])
 
 # save processed data
-df.to_csv("data/processed_data.csv", index=False)
+df.to_csv("data/main.csv", index=False)
